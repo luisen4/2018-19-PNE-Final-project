@@ -1,0 +1,273 @@
+
+B A S I C  L E V E L .
+
+----------------------
+
+ENDPOINT = /listSpecies
+
+    Request = http://localhost:8000/listSpecies?limit=10
+    Page Source =  <head>
+                        <meta charset="utf-8">
+                        <title>listSpecies</title>
+                      </head>
+                      <body> 1: house mouse</br>2: human</br>3: domestic guinea pig</br>4: house mouse</br>5: Midas cichlid</br>6: green anole</br>7: White-headed capuchin</br>8: ballan wrasse</br>9: leopard</br>10: torafugu</br>    <a href="/" >MAIN PAGE</a>
+                      </body>
+                    </html>
+
+
+    Request = http://localhost:8000/listSpecies
+    Page Source =  <head>
+                        <meta charset="utf-8">
+                        <title>listSpecies</title>
+                      </head>
+                      <body> 1: Collared flycatcher</br>2: American beaver</br>3: Sea squirt Ciona intestinalis</br>4: central bearded dragon</br>5: golden-collared manakin</br>6: steppe mouse</br>7: white-throated sparrow</br>8: Ord's kangaroo rat</br>9: Northern white-cheeked gibbon</br>10: house mouse</br>11: mummichog</br>12: algerian mouse</br>13: guppy</br>14: clown anemonefish</br>15: Mongolian gerbil</br>16: baker's yeast</br>17: Paramormyrops kingsleyae</br>18: Lesser Egyptian jerboa</br>19: house mouse</br>20: orange clownfish</br>21: western European hedgehog</br>22: koala</br>23: spiny chromis</br>24: blue-crowned manakin</br>25: American mink</br>26: domestic guinea pig</br>27: horse</br>28: nine-banded armadillo</br>29: Burton's mouthbrooder</br>30: Crab-eating macaque</br>31: Japanese quail</br>32: Budgie</br>33: naked mole-rat</br>34: Ma's night monkey</br>35: Polar bear</br>36: greater bamboo lemur</br>37: sailfin molly</br>38: mangrove rivulus</br>39: Great spotted kiwi</br>40: Argentine black and white tegu</br>41: Coquerel's sifaka</br>42: donkey</br>43: Brazilian guinea pig</br>44: common mallard</br>45: zebrafish</br>46: Northern American deer mouse</br>47: common canary</br>48: Golden Hamster</br>49: channel catfish</br>50: western mosquitofish</br>51: swamp eel</br>52: Bengalese finch</br>53: domestic cat</br>54: platypus</br>55: little spotted kiwi</br>56: tuatara</br>57: shortfin molly</br>58: fruit fly</br>59: Tasmanian devil</br>60: zebra mbuna</br>61: western european house mouse</br>62: ballan wrasse</br>63: Great Tit</br>64: helmeted guineafowl</br>65: sea lamprey</br>66: Spotted gar</br>67: Monterrey platyfish</br>68: Upper Galilee mountains blind mole rat</br>69: American pika</br>70: Hoffmann's two-fingered sloth</br>71: chimpanzee</br>72: Bolivian squirrel monkey</br>73: Domestic ferret</br>74: Agassiz's desert tortoise</br>75: Arctic ground squirrel</br>76: eastern european house mouse</br>77: Japanese medaka HdrR</br>78: large flying fox</br>79: Abingdon island giant tortoise</br>80: Black snub-nosed monkey</br>81: Mexican tetra</br>82: lyretail cichlid</br>83: south eastern house mouse</br>84: small Madagascar hedgehog</br>85: zebra finch</br>86: African savanna elephant</br>87: White-headed capuchin</br>88: green anole</br>89: giant panda</br>90: Daurian ground squirrel</br>91: pig</br>92: house mouse</br>93: house mouse</br>94: Spoon-billed sandpiper</br>95: tammar wallaby</br>96: tiger tail seahorse</br>97: cattle</br>98: American bison</br>99: house mouse</br>100: Japanese medaka HSOK</br>101: bonobo</br>102: Western Lowland Gorilla</br>103: emu</br>104: Okarito brown kiwi</br>105: dog</br>106: birds</br>107: sheepshead minnow</br>108: Chinese hamster</br>109: alpaca</br>110: blue tit</br>111: zig-zag eel</br>112: Pig-tailed macaque</br>113: Ryukyu mouse</br>114: Angola colobus</br>115: Domestic sheep</br>116: Drill</br>117: eastern happy</br>118: Japanese medaka HNI</br>119: Atlantic cod</br>120: Inshore hagfish</br>121: Philippine tarsier</br>122: Indian medaka</br>123: Sooty mangabey</br>124: three-spined stickleback</br>125: Amazon molly</br>126: house mouse</br>127: house mouse</br>128: dark-eyed junco</br>129: Chinese hamster</br>130: western clawed frog</br>131: dingo</br>132: bottlenosed dolphin</br>133: Ugandan red Colobus</br>134: red-bellied piranha</br>135: gray mouse lemur</br>136: Midas cichlid</br>137: C.elegans</br>138: spotted green pufferfish</br>139: Makobe Island cichlid</br>140: southern platyfish</br>141: Shrew mouse</br>142: Chinese hamster</br>143: Long-tailed chinchilla</br>144: cape rock hyrax</br>145: house mouse</br>146: naked mole-rat</br>147: ruff</br>148: African green monkey</br>149: Goat</br>150: small-eared galago</br>151: coelacanth</br>152: pink-footed goose</br>153: rhesus monkey</br>154: white-tufted-ear marmoset</br>155: turbot</br>156: Periophthalmus magnuspinnatus</br>157: Chinese softshell turtle</br>158: leopard</br>159: Degu</br>160: climbing perch</br>161: tongue sole</br>162: mainland tiger snake</br>163: house mouse</br>164: Nile tilapia</br>165: gelada</br>166: vole</br>167: torafugu</br>168: Australian saltwater crocodile</br>169: rabbit</br>170: wild yak</br>171: red fox</br>172: bicolor damselfish</br>173: European shrew</br>174: house mouse</br>175: greater amberjack</br>176: chicken</br>177: house mouse</br>178: Western painted turtle</br>179: Olive baboon</br>180: Alpine marmot</br>181: Bornean orangutan</br>182: Asian bonytongue</br>183: thirteen-lined ground squirrel</br>184: Sea squirt Ciona savignyi</br>185: Golden snub-nosed monkey</br>186: northern pike</br>187: domestic turkey</br>188: house mouse</br>189: Damara mole rat</br>190: Tiger</br>191: yellowtail amberjack</br>192: ocean sunfish</br>193: American black bear</br>194: northern tree shrew</br>195: gray short-tailed opossum</br>196: Norway rat</br>197: house mouse</br>198: human</br>199: little brown bat</br>    <a href="/" >MAIN PAGE</a>
+                      </body>
+                    </html>
+
+
+    Request = http://localhost:8000/listSpecies?limit=A
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+
+    Request = http://localhost:8000/listSpecies?limit=
+    Page Source =  <head>
+                        <meta charset="utf-8">
+                        <title>listSpecies</title>
+                      </head>
+                      <body> 1: house mouse</br>2: human</br>3: domestic guinea pig</br>4: house mouse</br>5: Midas cichlid</br>6: green anole</br>7: White-headed capuchin</br>8: ballan wrasse</br>9: leopard</br>10: torafugu</br>11: Black snub-nosed monkey</br>12: zig-zag eel</br>13: blue-crowned manakin</br>14: Damara mole rat</br>15: gray short-tailed opossum</br>16: donkey</br>17: southern platyfish</br>18: little spotted kiwi</br>19: ruff</br>20: three-spined stickleback</br>21: Chinese hamster</br>22: steppe mouse</br>23: Indian medaka</br>24: Upper Galilee mountains blind mole rat</br>25: Abingdon island giant tortoise</br>26: spiny chromis</br>27: Asian bonytongue</br>28: Tasmanian devil</br>29: chicken</br>30: coelacanth</br>31: helmeted guineafowl</br>32: house mouse</br>33: sailfin molly</br>34: koala</br>35: house mouse</br>36: Chinese hamster</br>37: house mouse</br>38: naked mole-rat</br>39: Spoon-billed sandpiper</br>40: common mallard</br>41: Bolivian squirrel monkey</br>42: Bengalese finch</br>43: white-tufted-ear marmoset</br>44: Domestic sheep</br>45: Olive baboon</br>46: Crab-eating macaque</br>47: mainland tiger snake</br>48: Goat</br>49: mummichog</br>50: American black bear</br>51: house mouse</br>52: tammar wallaby</br>53: bottlenosed dolphin</br>54: western mosquitofish</br>55: domestic cat</br>56: bonobo</br>57: Northern white-cheeked gibbon</br>58: African green monkey</br>59: cattle</br>60: clown anemonefish</br>61: Shrew mouse</br>62: Japanese quail</br>63: Philippine tarsier</br>64: Great spotted kiwi</br>65: Pig-tailed macaque</br>66: tuatara</br>67: pink-footed goose</br>68: climbing perch</br>69: Spotted gar</br>70: Golden snub-nosed monkey</br>71: Daurian ground squirrel</br>72: Amazon molly</br>73: turbot</br>74: algerian mouse</br>75: sea lamprey</br>76: western clawed frog</br>77: Agassiz's desert tortoise</br>78: American bison</br>79: house mouse</br>80: channel catfish</br>81: Degu</br>82: Angola colobus</br>83: golden-collared manakin</br>84: eastern happy</br>85: greater bamboo lemur</br>86: western european house mouse</br>87: nine-banded armadillo</br>88: mangrove rivulus</br>89: house mouse</br>90: Arctic ground squirrel</br>91: Western Lowland Gorilla</br>92: gray mouse lemur</br>93: Drill</br>94: central bearded dragon</br>95: American mink</br>96: Great Tit</br>97: rhesus monkey</br>98: platypus</br>99: Japanese medaka HNI</br>100: Inshore hagfish</br>101: dingo</br>102: zebrafish</br>103: house mouse</br>104: bicolor damselfish</br>105: Long-tailed chinchilla</br>106: house mouse</br>107: Mexican tetra</br>108: thirteen-lined ground squirrel</br>109: alpaca</br>110: Australian saltwater crocodile</br>111: white-throated sparrow</br>112: orange clownfish</br>113: Tiger</br>114: domestic turkey</br>115: Ugandan red Colobus</br>116: Alpine marmot</br>117: common canary</br>118: Okarito brown kiwi</br>119: Argentine black and white tegu</br>120: Hoffmann's two-fingered sloth</br>121: Ryukyu mouse</br>122: European shrew</br>123: zebra finch</br>124: gelada</br>125: tiger tail seahorse</br>126: Brazilian guinea pig</br>127: Periophthalmus magnuspinnatus</br>128: Ma's night monkey</br>129: little brown bat</br>130: pig</br>131: Coquerel's sifaka</br>132: fruit fly</br>133: Makobe Island cichlid</br>134: small Madagascar hedgehog</br>135: dark-eyed junco</br>136: red fox</br>137: chimpanzee</br>138: Chinese hamster</br>139: greater amberjack</br>140: western European hedgehog</br>141: African savanna elephant</br>142: lyretail cichlid</br>143: Chinese softshell turtle</br>144: vole</br>145: ocean sunfish</br>146: Polar bear</br>147: emu</br>148: rabbit</br>149: Monterrey platyfish</br>150: sheepshead minnow</br>151: Sea squirt Ciona intestinalis</br>152: red-bellied piranha</br>153: northern pike</br>154: American pika</br>155: Domestic ferret</br>156: Sea squirt Ciona savignyi</br>157: Mongolian gerbil</br>158: Paramormyrops kingsleyae</br>159: Lesser Egyptian jerboa</br>160: Ord's kangaroo rat</br>161: Sooty mangabey</br>162: Nile tilapia</br>163: Bornean orangutan</br>164: Western painted turtle</br>165: zebra mbuna</br>166: horse</br>167: Golden Hamster</br>168: large flying fox</br>169: yellowtail amberjack</br>170: blue tit</br>171: eastern european house mouse</br>172: Atlantic cod</br>173: Burton's mouthbrooder</br>174: baker's yeast</br>175: tongue sole</br>176: dog</br>177: swamp eel</br>178: giant panda</br>179: American beaver</br>180: Budgie</br>181: Northern American deer mouse</br>182: Collared flycatcher</br>183: wild yak</br>184: house mouse</br>185: south eastern house mouse</br>186: Norway rat</br>187: small-eared galago</br>188: naked mole-rat</br>189: C.elegans</br>190: guppy</br>191: Japanese medaka HSOK</br>192: spotted green pufferfish</br>193: birds</br>194: northern tree shrew</br>195: house mouse</br>196: shortfin molly</br>197: Japanese medaka HdrR</br>198: cape rock hyrax</br>199: house mouse</br>    <a href="/" >MAIN PAGE</a>
+                      </body>
+                    </html>
+
+
+    Request = http://localhost:8000/listSpecies?limit=1000
+    Page Source =  <head>
+                        <meta charset="utf-8">
+                        <title>listSpecies</title>
+                      </head>
+                      <body> 1: Collared flycatcher</br>2: American beaver</br>3: Sea squirt Ciona intestinalis</br>4: central bearded dragon</br>5: golden-collared manakin</br>6: steppe mouse</br>7: white-throated sparrow</br>8: Ord's kangaroo rat</br>9: Northern white-cheeked gibbon</br>10: house mouse</br>11: mummichog</br>12: algerian mouse</br>13: guppy</br>14: clown anemonefish</br>15: Mongolian gerbil</br>16: baker's yeast</br>17: Paramormyrops kingsleyae</br>18: Lesser Egyptian jerboa</br>19: house mouse</br>20: orange clownfish</br>21: western European hedgehog</br>22: koala</br>23: spiny chromis</br>24: blue-crowned manakin</br>25: American mink</br>26: domestic guinea pig</br>27: horse</br>28: nine-banded armadillo</br>29: Burton's mouthbrooder</br>30: Crab-eating macaque</br>31: Japanese quail</br>32: Budgie</br>33: naked mole-rat</br>34: Ma's night monkey</br>35: Polar bear</br>36: greater bamboo lemur</br>37: sailfin molly</br>38: mangrove rivulus</br>39: Great spotted kiwi</br>40: Argentine black and white tegu</br>41: Coquerel's sifaka</br>42: donkey</br>43: Brazilian guinea pig</br>44: common mallard</br>45: zebrafish</br>46: Northern American deer mouse</br>47: common canary</br>48: Golden Hamster</br>49: channel catfish</br>50: western mosquitofish</br>51: swamp eel</br>52: Bengalese finch</br>53: domestic cat</br>54: platypus</br>55: little spotted kiwi</br>56: tuatara</br>57: shortfin molly</br>58: fruit fly</br>59: Tasmanian devil</br>60: zebra mbuna</br>61: western european house mouse</br>62: ballan wrasse</br>63: Great Tit</br>64: helmeted guineafowl</br>65: sea lamprey</br>66: Spotted gar</br>67: Monterrey platyfish</br>68: Upper Galilee mountains blind mole rat</br>69: American pika</br>70: Hoffmann's two-fingered sloth</br>71: chimpanzee</br>72: Bolivian squirrel monkey</br>73: Domestic ferret</br>74: Agassiz's desert tortoise</br>75: Arctic ground squirrel</br>76: eastern european house mouse</br>77: Japanese medaka HdrR</br>78: large flying fox</br>79: Abingdon island giant tortoise</br>80: Black snub-nosed monkey</br>81: Mexican tetra</br>82: lyretail cichlid</br>83: south eastern house mouse</br>84: small Madagascar hedgehog</br>85: zebra finch</br>86: African savanna elephant</br>87: White-headed capuchin</br>88: green anole</br>89: giant panda</br>90: Daurian ground squirrel</br>91: pig</br>92: house mouse</br>93: house mouse</br>94: Spoon-billed sandpiper</br>95: tammar wallaby</br>96: tiger tail seahorse</br>97: cattle</br>98: American bison</br>99: house mouse</br>100: Japanese medaka HSOK</br>101: bonobo</br>102: Western Lowland Gorilla</br>103: emu</br>104: Okarito brown kiwi</br>105: dog</br>106: birds</br>107: sheepshead minnow</br>108: Chinese hamster</br>109: alpaca</br>110: blue tit</br>111: zig-zag eel</br>112: Pig-tailed macaque</br>113: Ryukyu mouse</br>114: Angola colobus</br>115: Domestic sheep</br>116: Drill</br>117: eastern happy</br>118: Japanese medaka HNI</br>119: Atlantic cod</br>120: Inshore hagfish</br>121: Philippine tarsier</br>122: Indian medaka</br>123: Sooty mangabey</br>124: three-spined stickleback</br>125: Amazon molly</br>126: house mouse</br>127: house mouse</br>128: dark-eyed junco</br>129: Chinese hamster</br>130: western clawed frog</br>131: dingo</br>132: bottlenosed dolphin</br>133: Ugandan red Colobus</br>134: red-bellied piranha</br>135: gray mouse lemur</br>136: Midas cichlid</br>137: C.elegans</br>138: spotted green pufferfish</br>139: Makobe Island cichlid</br>140: southern platyfish</br>141: Shrew mouse</br>142: Chinese hamster</br>143: Long-tailed chinchilla</br>144: cape rock hyrax</br>145: house mouse</br>146: naked mole-rat</br>147: ruff</br>148: African green monkey</br>149: Goat</br>150: small-eared galago</br>151: coelacanth</br>152: pink-footed goose</br>153: rhesus monkey</br>154: white-tufted-ear marmoset</br>155: turbot</br>156: Periophthalmus magnuspinnatus</br>157: Chinese softshell turtle</br>158: leopard</br>159: Degu</br>160: climbing perch</br>161: tongue sole</br>162: mainland tiger snake</br>163: house mouse</br>164: Nile tilapia</br>165: gelada</br>166: vole</br>167: torafugu</br>168: Australian saltwater crocodile</br>169: rabbit</br>170: wild yak</br>171: red fox</br>172: bicolor damselfish</br>173: European shrew</br>174: house mouse</br>175: greater amberjack</br>176: chicken</br>177: house mouse</br>178: Western painted turtle</br>179: Olive baboon</br>180: Alpine marmot</br>181: Bornean orangutan</br>182: Asian bonytongue</br>183: thirteen-lined ground squirrel</br>184: Sea squirt Ciona savignyi</br>185: Golden snub-nosed monkey</br>186: northern pike</br>187: domestic turkey</br>188: house mouse</br>189: Damara mole rat</br>190: Tiger</br>191: yellowtail amberjack</br>192: ocean sunfish</br>193: American black bear</br>194: northern tree shrew</br>195: gray short-tailed opossum</br>196: Norway rat</br>197: house mouse</br>198: human</br>199: little brown bat</br>    <a href="/" >MAIN PAGE</a>
+                      </body>
+                    </html>
+
+    Request = http://localhost:8000/listSpecies?lim
+    Page Source =  <head>
+                        <meta charset="utf-8">
+                        <title>listSpecies</title>
+                      </head>
+                      <body> 1: house mouse</br>2: human</br>3: domestic guinea pig</br>4: house mouse</br>5: Midas cichlid</br>6: green anole</br>7: White-headed capuchin</br>8: ballan wrasse</br>9: leopard</br>10: torafugu</br>11: Black snub-nosed monkey</br>12: zig-zag eel</br>13: blue-crowned manakin</br>14: Damara mole rat</br>15: gray short-tailed opossum</br>16: donkey</br>17: southern platyfish</br>18: little spotted kiwi</br>19: ruff</br>20: three-spined stickleback</br>21: Chinese hamster</br>22: steppe mouse</br>23: Indian medaka</br>24: Upper Galilee mountains blind mole rat</br>25: Abingdon island giant tortoise</br>26: spiny chromis</br>27: Asian bonytongue</br>28: Tasmanian devil</br>29: chicken</br>30: coelacanth</br>31: helmeted guineafowl</br>32: house mouse</br>33: sailfin molly</br>34: koala</br>35: house mouse</br>36: Chinese hamster</br>37: house mouse</br>38: naked mole-rat</br>39: Spoon-billed sandpiper</br>40: common mallard</br>41: Bolivian squirrel monkey</br>42: Bengalese finch</br>43: white-tufted-ear marmoset</br>44: Domestic sheep</br>45: Olive baboon</br>46: Crab-eating macaque</br>47: mainland tiger snake</br>48: Goat</br>49: mummichog</br>50: American black bear</br>51: house mouse</br>52: tammar wallaby</br>53: bottlenosed dolphin</br>54: western mosquitofish</br>55: domestic cat</br>56: bonobo</br>57: Northern white-cheeked gibbon</br>58: African green monkey</br>59: cattle</br>60: clown anemonefish</br>61: Shrew mouse</br>62: Japanese quail</br>63: Philippine tarsier</br>64: Great spotted kiwi</br>65: Pig-tailed macaque</br>66: tuatara</br>67: pink-footed goose</br>68: climbing perch</br>69: Spotted gar</br>70: Golden snub-nosed monkey</br>71: Daurian ground squirrel</br>72: Amazon molly</br>73: turbot</br>74: algerian mouse</br>75: sea lamprey</br>76: western clawed frog</br>77: Agassiz's desert tortoise</br>78: American bison</br>79: house mouse</br>80: channel catfish</br>81: Degu</br>82: Angola colobus</br>83: golden-collared manakin</br>84: eastern happy</br>85: greater bamboo lemur</br>86: western european house mouse</br>87: nine-banded armadillo</br>88: mangrove rivulus</br>89: house mouse</br>90: Arctic ground squirrel</br>91: Western Lowland Gorilla</br>92: gray mouse lemur</br>93: Drill</br>94: central bearded dragon</br>95: American mink</br>96: Great Tit</br>97: rhesus monkey</br>98: platypus</br>99: Japanese medaka HNI</br>100: Inshore hagfish</br>101: dingo</br>102: zebrafish</br>103: house mouse</br>104: bicolor damselfish</br>105: Long-tailed chinchilla</br>106: house mouse</br>107: Mexican tetra</br>108: thirteen-lined ground squirrel</br>109: alpaca</br>110: Australian saltwater crocodile</br>111: white-throated sparrow</br>112: orange clownfish</br>113: Tiger</br>114: domestic turkey</br>115: Ugandan red Colobus</br>116: Alpine marmot</br>117: common canary</br>118: Okarito brown kiwi</br>119: Argentine black and white tegu</br>120: Hoffmann's two-fingered sloth</br>121: Ryukyu mouse</br>122: European shrew</br>123: zebra finch</br>124: gelada</br>125: tiger tail seahorse</br>126: Brazilian guinea pig</br>127: Periophthalmus magnuspinnatus</br>128: Ma's night monkey</br>129: little brown bat</br>130: pig</br>131: Coquerel's sifaka</br>132: fruit fly</br>133: Makobe Island cichlid</br>134: small Madagascar hedgehog</br>135: dark-eyed junco</br>136: red fox</br>137: chimpanzee</br>138: Chinese hamster</br>139: greater amberjack</br>140: western European hedgehog</br>141: African savanna elephant</br>142: lyretail cichlid</br>143: Chinese softshell turtle</br>144: vole</br>145: ocean sunfish</br>146: Polar bear</br>147: emu</br>148: rabbit</br>149: Monterrey platyfish</br>150: sheepshead minnow</br>151: Sea squirt Ciona intestinalis</br>152: red-bellied piranha</br>153: northern pike</br>154: American pika</br>155: Domestic ferret</br>156: Sea squirt Ciona savignyi</br>157: Mongolian gerbil</br>158: Paramormyrops kingsleyae</br>159: Lesser Egyptian jerboa</br>160: Ord's kangaroo rat</br>161: Sooty mangabey</br>162: Nile tilapia</br>163: Bornean orangutan</br>164: Western painted turtle</br>165: zebra mbuna</br>166: horse</br>167: Golden Hamster</br>168: large flying fox</br>169: yellowtail amberjack</br>170: blue tit</br>171: eastern european house mouse</br>172: Atlantic cod</br>173: Burton's mouthbrooder</br>174: baker's yeast</br>175: tongue sole</br>176: dog</br>177: swamp eel</br>178: giant panda</br>179: American beaver</br>180: Budgie</br>181: Northern American deer mouse</br>182: Collared flycatcher</br>183: wild yak</br>184: house mouse</br>185: south eastern house mouse</br>186: Norway rat</br>187: small-eared galago</br>188: naked mole-rat</br>189: C.elegans</br>190: guppy</br>191: Japanese medaka HSOK</br>192: spotted green pufferfish</br>193: birds</br>194: northern tree shrew</br>195: house mouse</br>196: shortfin molly</br>197: Japanese medaka HdrR</br>198: cape rock hyrax</br>199: house mouse</br>    <a href="/" >MAIN PAGE</a>
+                      </body>
+                    </html>
+    Request = http://localhost:8000/listSpecies?limit=-10
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+ENDPOINT = /karyotype
+
+    Request = http://localhost:8000/karyotype?specie=mouse
+    Page Source =  <head>
+                                <meta charset="utf-8">
+                                <title>karyotype</title>
+                              </head>
+                              <body> -   1.<br>-   2.<br>-   3.<br>-   4.<br>-   5.<br>-   6.<br>-   7.<br>-   8.<br>-   9.<br>-   10.<br>-   11.<br>-   12.<br>-   13.<br>-   14.<br>-   15.<br>-   16.<br>-   17.<br>-   18.<br>-   19.<br>-   X.<br>-   Y.<br>-   MT.<br>    <a href="/" >MAIN PAGE</a>
+                              </body>
+                            </html>
+
+    Request = http://localhost:8000/karyotype
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/karyotype?specie=programming
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/karyotype?specie=4
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/karyotype?specie=
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/karyotype?spe
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+
+ENDPOINT = /chromosomeLength
+
+    Request = http://localhost:8000/chromosomeLength?specie=mouse&chromo=18
+    Page Source =  <head>
+                                                <meta charset="utf-8">
+                                                <title>chromosomeLength</title>
+                                              </head>
+                                              <body> The chromosome 18 of the species mouse has a length of: <br>90702639<br>    <a href="/" >MAIN PAGE</a>
+                                              </body>
+                                            </html>
+
+    Request = http://localhost:8000/chromosomeLength?chromo=18&specie=mouse
+    Page Source =  <head>
+                                                <meta charset="utf-8">
+                                                <title>chromosomeLength</title>
+                                              </head>
+                                              <body> The chromosome 18 of the species mouse has a length of: <br>90702639<br>    <a href="/" >MAIN PAGE</a>
+                                              </body>
+                                            </html>
+
+    Request = http://localhost:8000/chromosomeLength
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?specie=programming&chromo=18
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?specie=mouse&chromo=100
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?specie=mouse&chromo=mouse
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?specie=18&chromo=18
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?specie=&chromo=
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?specie=mouse
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request = http://localhost:8000/chromosomeLength?sp=mouse&cho=18
+    Page Source = <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+
+
+
+
+
+

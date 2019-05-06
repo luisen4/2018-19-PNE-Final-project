@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>FINAL PRACTICE</title>
+</head>
+<style>
+
+.level {
+  background-color: #007399;
+  font-family: verdana;
+  color: white;
+  padding: 10px;
+  text-align: center
+}
+
+.txt {
+  background-color: white;
+  color: white;
+  font-family: verdana;
+  padding: 10px;
+  background-color: rgba(0,153,204, 0.4);
+
+}
+
+</style>
+<body style="background-image:url('https://i.imgur.com/qjqrRys.jpg');">
+
+
+<h2 class="level">BASIC LEVEL</h2>
+
+<form action="listSpecies" method="get" class="txt">
+      <br>
+      <br>
+      <h3>List Species: </h3>
+      <br>
+      Choose the number of species you want to get:
+      <input type="number" name="limit" min="1" max="199">
+      <input type="submit">
+      <br>
+      <br>
+      <hr>
+    </form>
+
+    <form action="karyotype" method="get" class="txt">
+        <br>
+       <br>
+      <h3>Karyotype:</h3>
+      <br>
+      Enter the name of the specie:
+      <input type="text" name="specie">
+      <input type="submit"/>
+        <br>
+        <br>
+        <hr>
+    </form>
+
+    <form action="chromosomeLength" method="get" class="txt">
+        <br>
+        <br>
+      <h3>Chromosome Length:</h3>
+      <br>
+      Choose a specie:
+      <input type="text" name="specie">
+      <br>
+      Choose the number of the chromosome
+      <input type="text" name="chromo">
+      <input type="submit"/>
+      <br>
+      <br>
+    </form>
+<h2 class="level">MEDIUM LEVEL</h2>
+
+<form action="geneSeq" method="get" class="txt">
+      <br>
+      <br>
+      <h3>Gene Seq:</h3>
+      <br>
+      Select the human gene you want to get the sequence:
+      <input type="text" name="gene">
+      <input type="submit"/>
+      <br>
+      <br>
+    <hr>
+    </form>
+
+    <form action="geneInfo" method="get" class="txt">
+      <br>
+        <br>
+        <h3>Gene Info:</h3>
+      <br>
+      Select the human gene you want to get the info:
+      <input type="text" name="gene">
+      <input type="submit"/>
+      <br>
+        <br>
+        <hr>
+    </form>
+
+    <form action="geneCalc" method="get" class="txt">
+      <br>
+        <br>
+        <h3>Gene Calc:</h3>
+      <br>
+      Select the human gene to make the calculations:
+      <input type="text" name="gene">
+      <input type="submit"/>
+      <br>
+        <br>
+        <hr>
+    </form>
+
+    <form action="geneList" method="get" class="txt">
+      <br>
+        <br>
+        <h3>Gene List:</h3>
+      <br>
+      Select the human gene to make the calculations:
+      <input type="text" name="chromo">
+      <input type="number" name="start">
+      <input type="number" name="end">
+      <input type="submit"/>
+      <br>
+        <br>
+    </form>
+
+</body>
+</html>

@@ -1,0 +1,396 @@
+
+M E D I U M  L E V E L .
+
+------------------------
+
+ENDPOINT = /geneSeq
+
+    Request: http://localhost:8000/geneSeq?gene=FRAT1
+    Page Source:  <head>
+                                                                <meta charset="utf-8">
+                                                                <title>geneSeq</title>
+                                                              </head>
+                                                              <body> <p style="word-break:break-all"> ATTCCGGCTCCCGCGGCTGCAGGCGCGCGGCTAGAGTGCCTGGCGGGCTCCGGCTTCCGCGTCCGCCCCGGCCCCGGTCCAGACTTAGTCTTCAGCTCCGCGCCCGCTCCGCCGCGGCCCACCGCGCCCGCCGGCAGCCGAGCCCCCAGCGACGCCCGCACAGCTCCGGGTGCCCAGACAGGGGGCCATGCCGTGCCGGAGGGAGGAGGAAGAGGAAGCCGGCGAGGAGGCGGAGGGGGAGGAAGAGGAGGAGGACAGCTTCCTCCTACTGCAGCAGTCAGTGGCGCTGGGCAGCTCGGGCGAGGTGGACCGGCTGGTGGCCCAGATCGGCGAGACGCTGCAGCTGGACGCGGCGCAGCACAGCCCGGCCTCGCCGTGCGGGCCCCCGGGGGCGCCGCTGCGGGCCCCGGGGCCCCTGGCTGCGGCGGTGCCGGCGGACAAGGCCAGGTCCCCGGCGGTGCCGCTGCTGCTGCCGCCCGCGTTGGCGGAGACTGTGGGCCCGGCGCCCCCTGGGGTCCTGCGCTGCGCCCTGGGGGACCGCGGCCGCGTGCGGGGCCGCGCTGCGCCCTACTGCGTGGCCGAGCTCGCCACAGGCCCCAGCGCGCTGTCCCCACTGCCCCCTCAGGCCGACCTTGATGGGCCTCCGGGAGCTGGCAAGCAGGGCATCCCGCAGCCGCTGTCGGGTCCGTGCCGGCGAGGATGGCTCCGGGGCGCCGCCGCCTCCCGCCGCCTGCAGCAGCGACGCGGGTCCCAACCAGAAACCCGCACAGGCGACGACGACCCGCACCGGCTTCTGCAGCAGCTAGTGCTCTCTGGAAACCTCATCAAGGAGGCCGTGCGAAGGCTTCATTCGCGACGGCTGCAGTTACGTGCAAAGCTTCCCCAACGCCCGCTCCTGGGACCTCTGTCGGCCCCGGTGCATGAACCCCCTTCGCCTCGCAGCCCTCGCGCGGCCTGCAGTGACCCTGGCGCCTCCGGGAGGGCGCAGCTCAGAACTGGCGACGGCGTTCTTGTGCCTGGCAGCTAACACGCCCGGGGTGGCCACAGCGCCAGCCTCAGACTGGAGGGCAAGGGGTTCCCTTGAGGGCTGCAGTTCTACTCAGGCTGGTGGAGAACTCTGGCTTTTGGAAGCGAGAGTAAAAAGCTAATGACGAGGAACCGAAAAATCGCGAGTGTTTCGCGGGTAACTGGGGTTGAGGGCCAAAATATTTGGAATGAAGGACTTTGGCCCTATTTAAGGCAGATTTTACAGAGCGCACCTCAAACGTACAAGTCAGTAGGACTCCTTATTTGGCGTGACCCGACCTGGCCGCGGAGCCTGCATTTCCTCGCAGCCTCTCAGTGCCCTCCAGCCCCGCGACCATGTGGCCACAATCCACGCTTCTCCGGATCGCGGTGCGCCGGAACCACGGAGGATGATGCCAGTTACTTGCTTTACCTTTTCAGGGCTGGCTCCTGATCCACTTTGGGGGAGGAGAACATGAGTAGATAATTTCAGGGTGCAGCCCAATCTGCCAGACTTAAAAAAACCATCTTGTGTCTTTGGAGGTGCTGCTTAATACCAAACATGCGGTGCCATGAAGGGACCCTTTGGGGGTTGAATAGGAGTTAACCCCTGCGCTCTCTTTGCAACTGTCTCTCTTCTCAGAGTGGTGGGGGAAGGCTGTACGACACGGGTGGGGAAAGGAGGTGGGGGCGGGGAGTATTGAATGGTGGTGGAAGGGTAGAGAGGCGCGGAGTGAACCCCACGCCCTGTCTAAAGTGTATTTTCAGAGCCGGCCCGCCTCTCCTCGGTTCAAGGTCACTGTTTCCTGGGCACGCACTGGGTTGCGGGACAGAGTAGCCAGGTTCTGCCGGTGCTCGGAGAAGAGCGCAGTGTTTTGCAAGTGCTGGAGTCTCCTGAGGACACGCGCGTCGCCGCCACCGCGGGTGTGGGAAAGCGCGGACGTGCTGGGCGGCTGTGCTTCGGTAGGCGACCACCGCCCCTGGCCGCGCTCCGGGCTTTCACGGAAACTCCCGAGACCGGGCCCTGGGTTCCTCCTCTCCTACTCGGCTCTGCAGTCCTACTCAAGCGGGTGGCTCTGGGATCCTGGGGGCCTGGGTTGGGGGCTAGGGAGACGCCATGTGATGGACACTCCAGGGACACACAGCCTAGCACAGCAGCTTATAATGGGCTCTCCGGGGCCATTTGCAATAACAGCTGCAATTCCCTGGATAGACGAGTTGATTTCCTCCCTCTGCCCCTCCCCCAGCCATGCCAGCTGGCCTTTGTAAGTGCAGGAAACCGAGTAGAAAATGTGACCCTCCAAATGGAGAAGCTGCAGGCTTTGCCATTGTGAACCATGGTGAAGTGCTTGGAACATACTGTTCACTCACTCTAAAGGCGCTGAGACTGTGCTGTTGTTCTCGTTTTTATAGTCAATGGCTTGTTCATCATCCAGATGTGGCTACTGACATATCTACACTTCGCACCGGAGTGTCTGGAATTGTGGCTATCCTGATTATAGGATTTTAACTTAACTGAAATGCCTGCTTTGAATAAATGTGTTGGGTTTTTTGTTTGGTTTTATTTTATACTTGCCATCAGTGAAAAAGATGTACAGAACACATTTCTCTGATCTCCATAAACATGAAAACACTTGAAATCTC</p><br>    <a href="/" >MAIN PAGE</a>
+                                                              </body>
+                                                            </html>
+
+    Request: http://localhost:8000/geneSeq
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneSeq?gene=programming
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneSeq?gene=4
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneSeq?gene=
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneSeq?gen
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+
+ENDPOINT = /geneInfo
+
+    Request: http://localhost:8000/geneInfo?gene=FRAT1
+    Page Source:  <head>
+                                                                                <meta charset="utf-8">
+                                                                                <title>geneSeq</title>
+                                                                              </head>
+                                                                              <body> <br>The start of the sequence: 97319267<br><br>The end of the sequence: 97321915<br><br>The length of the sequence: 2649<br><br>The id of the sequence: ENSG00000165879<br><br>The chromosome of the sequence: 10<br>    <a href="/" >MAIN PAGE</a>
+                                                                              </body>
+                                                                            </html>
+
+    Request: http://localhost:8000/geneInfo
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneInfo?gene=programming
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneInfo?gene=4
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneInfo?gene=
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneInfo?gen
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+
+ENDPOINT = /geneCalc
+
+    Request: http://localhost:8000/geneCalc?gene=FRAT1
+    Page Source:  <head>
+                                                                                            <meta charset="utf-8">
+                                                                                            <title>geneSeq</title>
+                                                                                          </head>
+                                                                                          <body> The percentage of A of the gene FRAT1 is: 18.04%<br>The percentage of C of the gene FRAT1 is: 30.2%<br>The percentage of T of the gene FRAT1 is: 19.71%<br>The percentage of G of the gene FRAT1 is: 32.05%<br>The length of the gene FRAT1 is: 2649<br>    <a href="/" >MAIN PAGE</a>
+                                                                                          </body>
+                                                                                        </html>
+
+    Request: http://localhost:8000/geneCalc
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneCalc?gene=programming
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneCalc?gene=4
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneCalc?gene=
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneCalc?gen
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+
+
+ENDPOINT = /geneList
+
+    Request: http://localhost:8000/geneList?chromo=1&start=0&end=30000
+    Page Source:  <head>
+                                                                         <meta charset="utf-8">
+                                                                         <title>geneList</title>
+                                                                         </head>
+                                                                                                          <body> The gene DDX11L1 is from in the position: 11869 to 14409<br>The gene WASH7P is from in the position: 14404 to 29570<br>The gene MIR6859-1 is from in the position: 17369 to 17436<br>The gene MIR1302-2HG is from in the position: 29554 to 31109<br>    <a href="/" >MAIN PAGE</a>
+                                                                                                          </body>
+                                                                                                        </html>
+
+    Request: http://localhost:8000/geneList?start=0&chromo=1&end=30000
+    Page Source:  <head>
+                                                                         <meta charset="utf-8">
+                                                                         <title>geneList</title>
+                                                                         </head>
+                                                                                                          <body> The gene DDX11L1 is from in the position: 11869 to 14409<br>The gene WASH7P is from in the position: 14404 to 29570<br>The gene MIR6859-1 is from in the position: 17369 to 17436<br>The gene MIR1302-2HG is from in the position: 29554 to 31109<br>    <a href="/" >MAIN PAGE</a>
+                                                                                                          </body>
+                                                                                                        </html>
+
+    Request: http://localhost:8000/geneList?end=30000&start=0&chromo=1
+    Page Source:  <head>
+                                                                         <meta charset="utf-8">
+                                                                         <title>geneList</title>
+                                                                         </head>
+                                                                                                          <body> The gene DDX11L1 is from in the position: 11869 to 14409<br>The gene WASH7P is from in the position: 14404 to 29570<br>The gene MIR6859-1 is from in the position: 17369 to 17436<br>The gene MIR1302-2HG is from in the position: 29554 to 31109<br>    <a href="/" >MAIN PAGE</a>
+                                                                                                          </body>
+                                                                                                        </html>
+
+    Request: http://localhost:8000/geneList?chromo=X&start=3456&end=300000
+    Page Source:  <head>
+                                                                         <meta charset="utf-8">
+                                                                         <title>geneList</title>
+                                                                         </head>
+                                                                                                          <body> The gene AL954722.1 is from in the position: 253743 to 255091<br>The gene PLCXD1 is from in the position: 276322 to 303356<br>    <a href="/" >MAIN PAGE</a>
+                                                                                                          </body>
+                                                                                                        </html>
+
+    Request: http://localhost:8000/geneList?chromo=programming&start=0&end=30000
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=1&start=programming&end=30000
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=1&start=0&end=programming
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=44&start=0&end=30000
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=&start=&end=
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=1&start=0&end=
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=1&
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?end=30000
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=1&start=555555555&end=30
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chromo=1&start=-200&end=77127821
+    Page Source: <!DOCTYPE html>
+<html lang="en" dir="ltr">
+  <head>
+      <meta charset="utf-8">
+      <title>ERROR</title>
+  </head>
+  <body style="background-color: #ff3333">
+    <h1 style="color: #800000; text-align:center">ERROR</h1>
+    <a href="/">HOME</a>
+  </body>
+
+    Request: http://localhost:8000/geneList?chmo=1&sta=0&e=30000
+    Page Source: http://localhost:8000/geneList?chmo=1&sta=0&e=30000
+
+
